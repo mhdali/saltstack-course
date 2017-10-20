@@ -1,0 +1,25 @@
+{
+  "title": "101 SaltStack",
+  "description": "Introduction into SaltStack",
+  "details": {
+    "steps": [
+      { "title": "High Level Architecture", "text": "step1.md" },
+      { "title": "Quick Start", "text": "step2.md" },
+      { "title": "Execution Modules", "text": "step3.md" },
+      { "title": "Data Sources", "text": "step4.md" }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal-split"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
